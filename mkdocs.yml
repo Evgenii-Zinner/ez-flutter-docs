@@ -1,0 +1,49 @@
+site_name: EZ Flutter Widgets
+site_url: https://flutter.ezinner.com/
+use_directory_urls: false
+site_description: A  collection of defencive and easy-to-use Flutter widgets.
+site_author: Evgenii Zinner
+copyright: 'Copyright &copy; 2025 <a href="https://ezinner.com">Evgenii Zinner</a>'
+
+plugins:
+  - social
+
+theme:
+  name: material
+  palette:
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Overview: index.md
+  - Widgets:
+      - EzCircleAvatar: ez_circle_avatar.md
+      - EZEmailField: ez_email_field.md
+      - EzGridView: ez_grid_view.md
+      - EzListView: ez_list_view.md
+      - EzCustomScrollView: ez_custom_scroll_view.md
+      - EzExpanded: ez_expanded.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
