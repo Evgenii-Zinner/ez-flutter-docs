@@ -47,6 +47,12 @@ A collection of **simple, defensive, and developer-friendly** Flutter widgets de
 
     A defensive widget that provides flex-based expansion behavior while safely handling unbounded constraints. It prevents "Incorrect use of ParentDataWidget" crashes.
 
+-   :material-form-textbox-password:{ .lg .middle } **[EzPasswordField](ez_password_field.md)**
+
+    ---
+
+    A secure password field with built-in visibility toggle and configurable validation rules (length, charset).
+
 </div>
 
 ## Installation

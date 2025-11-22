@@ -10,6 +10,7 @@ plugins:
 
 theme:
   name: material
+  favicon: assets/images/favicon.png
   palette:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -25,14 +26,15 @@ theme:
     - content.code.copy
 
 nav:
-  - Overview: index.md
   - Widgets:
+      - Overview: index.md
       - EzCircleAvatar: ez_circle_avatar.md
       - EZEmailField: ez_email_field.md
       - EzGridView: ez_grid_view.md
       - EzListView: ez_list_view.md
       - EzCustomScrollView: ez_custom_scroll_view.md
       - EzExpanded: ez_expanded.md
+      - EzPasswordField: ez_password_field.md
 
 markdown_extensions:
   - admonition
