@@ -35,6 +35,7 @@ nav:
       - EzCustomScrollView: ez_custom_scroll_view.md
       - EzExpanded: ez_expanded.md
       - EzPasswordField: ez_password_field.md
+      - EzContactCard: ez_contact_card.md
 
 markdown_extensions:
   - admonition
