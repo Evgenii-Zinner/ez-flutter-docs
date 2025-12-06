@@ -53,6 +53,12 @@ A collection of **simple, defensive, and developer-friendly** Flutter widgets de
 
     A secure password field with built-in visibility toggle and configurable validation rules (length, charset).
 
+-   :material-card-account-details:{ .lg .middle } **[EzContactCard](ez_contact_card.md)**
+
+    ---
+
+    A customizable contact card composed of an avatar, headline, subtitle, and action area. Enforces a clean layout with extensive styling control.
+
 </div>
 
 ## Installation
