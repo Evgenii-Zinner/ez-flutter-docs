@@ -10,7 +10,7 @@ plugins:
 
 theme:
   name: material
-  favicon: assets/images/favicon.png
+  favicon: assets/images/logo.svg
   palette:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
