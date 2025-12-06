@@ -11,6 +11,7 @@ plugins:
 theme:
   name: material
   favicon: assets/images/logo.svg
+  logo: assets/images/logo.svg
   palette:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
