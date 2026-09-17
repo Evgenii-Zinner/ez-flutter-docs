@@ -30,6 +30,16 @@ Displaying user avatars typically involves repetitive boilerplate code. The stan
 | `radius` | `double?` | The size of the avatar. Defaults to 20 logical pixels. |
 | `minRadius` | `double?` | The minimum size constraint for the avatar. |
 | `maxRadius` | `double?` | The maximum size constraint for the avatar. |
+| `borderColor` | `Color?` | The color of the outer border around the avatar. |
+| `borderWidth` | `double` | The width of the outer border (defaults to 1.0). |
+| `textStyle` | `TextStyle?` | Custom text style for initials. If null, font size scales proportionally with avatar radius. |
+| `semanticLabel` | `String?` | Custom accessibility label for screen readers. Defaults to "Avatar for [name]". |
+| `onTap` | `VoidCallback?` | Callback invoked when the avatar is tapped. Shows a circular ink ripple. |
+| `onLongPress` | `VoidCallback?` | Callback invoked when the avatar is long-pressed. |
+| `statusColor` | `Color?` | Color of the status indicator dot (e.g., `Colors.green` for online). |
+| `statusWidget` | `Widget?` | Custom status badge widget (overrides `statusColor`). |
+| `statusAlignment` | `AlignmentGeometry` | Alignment of the status badge (defaults to `Alignment.bottomRight`). |
+| `statusBorderColor` | `Color?` | Border color for the status indicator dot (defaults to `Colors.white`). |
 | `onBackgroundImageError` | `ImageErrorListener?` | Callback invoked when the background image fails to load. |
 | `onForegroundImageError` | `ImageErrorListener?` | Callback invoked when the foreground image fails to load. |
 
