@@ -21,7 +21,7 @@ Displaying user avatars typically involves repetitive boilerplate code. The stan
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
-| `name` | `String` | **Required.** The name used to generate initials and a deterministic background color via hashing. |
+| `name` | `String` | The name used to generate initials and a deterministic background color. Defaults to `''`. |
 | `backgroundColor` | `Color?` | Override the auto-generated background color. If null, a color is generated from `name`. |
 | `foregroundColor` | `Color?` | Override the auto-selected text color. If null, automatically chooses black or white based on background luminance. |
 | `backgroundImage` | `ImageProvider?` | The background image. If loading fails, falls back to displaying initials. |
